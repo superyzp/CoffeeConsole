@@ -1,0 +1,9 @@
+#!/usr/bin/env coffee
+
+fs = require('fs')
+path = require('path')
+
+libPath = path.join(path.dirname(fs.realpathSync(__filename)), "../lib")
+
+console = require path.join(libPath, "core.coffee")
+console.start()

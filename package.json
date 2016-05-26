@@ -1,0 +1,40 @@
+{
+  "name": "coffee_console",
+  "version": "0.1.0",
+  "description": "CoffeeScript Console With Modles",
+  "main": "./lib/core.coffee",
+  "bin":
+  {
+    "coffee_console": "./bin/console"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superyzp/CoffeeConsole.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "coffee-script": "~1.10.0",
+    "lodash": "^4.4.1",
+    "mongoose": "~4.4.12",
+    "require-directory": "^2.1.1",
+    "uppercamelcase": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "superagent": "^2.0.0-alpha.3",
+    "supertest": "^1.2.0"
+  },
+  "keywords": [
+    "coffee",
+    "console"
+  ],
+  "author": "superyzp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superyzp/CoffeeConsole/issues"
+  },
+  "homepage": "https://github.com/superyzp/CoffeeConsole#readme"
+}

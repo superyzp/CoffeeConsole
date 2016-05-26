@@ -1,0 +1,14 @@
+{
+    "dbUrl" : "mongodb://username:password@host:port/database",
+    "dbOptions":
+    {
+        "server":
+        {
+             "poolsize": 4,
+             "socketOptions":
+             {
+                  "autoReconnect": true
+             }
+        }
+    }
+}
